@@ -1,4 +1,3 @@
-
 // teams must be even
 var UNITS_PER_SIDE = 50;
 
@@ -191,9 +190,9 @@ Unit = function()
 	this.mySide;
 
 	// always move in one horizontal direction
-  var speedx = Math.random()*(.2)+.1;
-  // can move up or down
-  var speedy = Math.random()*(.4)-.2;
+	var speedx = Math.random()*(.2)+.1;
+	// can move up or down
+	var speedy = Math.random()*(.4)-.2;
 
 	this.init = function(side)
 	{
